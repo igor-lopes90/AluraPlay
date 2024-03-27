@@ -70,6 +70,21 @@
         display: block;
     }
 
+/* MENU LATERAL PARA TELAS DE TABLETS */
+    .menu__container {
+        top: 80px;
+        left: 0;
+        height: auto;
+        width: 74px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 32px;
+        padding-top: 16px;
+    }
+
 /* RODAPÉ */
 
     .rodape__container {
